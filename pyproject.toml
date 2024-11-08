@@ -6,12 +6,13 @@ authors = ["beckspark <stephenpbeck@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.12"
-pandas = "^2.2.3"
-numpy = "^2.1.2"
+python = ">=3.12,<3.13"
+numpy = ">=1.17.0,<2"
 ipykernel = "^6.29.5"
 scipy = "^1.14.1"
 matplotlib = "^3.9.2"
+packaging = "==21.3"
+pymc = "^5.18.0"
 
 
 [build-system]
