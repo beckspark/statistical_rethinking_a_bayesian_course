@@ -1,0 +1,68 @@
+# -------------------------------
+# Python
+# -------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.lock
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# UV specific
+uv.lock
+.uv/
+
+# PyProject / Poetry (if switching)
+poetry.lock
+
+# Jupyter
+.ipynb_checkpoints/
+.notebooks_cache/
+*.nbconvert.ipynb
+
+# VS Code
+.vscode/
+!.vscode/settings.json        # keep shared settings if desired
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Testing / coverage
+.coverage
+*.cover
+coverage.xml
+htmlcov/
+.cache/
+.pytest_cache/
+.tox/
+.mypy_cache/
+
+# IDEs
+.idea/
+.spyproject/
+*.sublime-workspace
+*.sublime-project
+
+# Others (optional)
+*.sqlite3
+*.db
